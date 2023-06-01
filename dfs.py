@@ -9,7 +9,8 @@ def dfs(graph, start, finish, len, path=[]):
            for neighbour in graph[start]:
                path = dfs(graph, start, finish, len, path)
        return [path, len]
-#just, a comment for sure, good job
+
+#just, a comment for sure, good job, yes
 def init_graph():
 	dict = {}
 	am = input("Введите количество вершин\n")
