@@ -1,5 +1,7 @@
 def dfs(graph, start, finish, len, path=[]):
-       if start not in path:
+	if type(start) !=int() and type(finish) !=int():
+		return
+        if start not in path:
            path.append(start)
            len=len+1
            if start==finish:
